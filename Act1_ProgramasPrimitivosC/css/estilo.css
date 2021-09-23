@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}/*
+html{
+    font-size: 16px;
+}*/
+body{
+    font-size: 20px;
+    background-size: cover;
+    padding-top: 60px;
+    background-color: aqua;
+    border: 1px;
+}/*
+#menuPrincipal{
+    background-color: blue;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+
+
+.opcionMenuPrincipal{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    padding: 20px 80px;
+    cursor: pointer;
+    position: relative;
+    font-size: 1.5rem;
+}
+.opcionMenuPrincipal:hover{
+    background-color:transparent;
+}
+.contenido{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    min-width: 320px;
+    color:black;
+    background-color: solid;
+}
+.contenedor{
+    width: 300px;
+    border: solid 1px #000;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+
+}
+.res{
+    width: 700px;
+    border: solid 1px #800008;
+    padding: 10px;
+    margin: 10px auto;
+
+}*/
+select{
+    display: block;
+    margin: 10px auto;
+
+}

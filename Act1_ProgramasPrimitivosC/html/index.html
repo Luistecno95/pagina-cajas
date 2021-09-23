@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../js/funciones.js"></script>
+    <link rel="stylesheet" href="../css/estilo.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <a class="opcionMenuPrincipal" href="../index.html">Javascript</a>
+
+        </h1>
+
+    </header>
+    <h1>Cuestionario</h1>
+        <article id="datos" class="Contenedor">
+
+            <fieldset>
+                <label for="">Que carrera cursas?</label>
+                <select name="cursas" id="cursas">
+                    <option name="p1" value="gastronomia" select>Gastronomia</option>
+                    <option name="p1" value="mecatronica">Mecatronica</option>
+                    <option name="p1" value="entornos virtuales">Entornos Virtuales</option>
+                </select>
+                <br>
+                <br>
+                <label for="">Que carrera maneja cocina tradicional?</label>
+                <select name="cocina" id="tradicional">
+                    <option name="p2" value="gastronomia">Gastronomia</option>
+                    <option name="p2" value="mecatronica">Mecatronica</option>
+                    <option name="p2" value="entornos virtuales">Entornos Virtuales</option>
+                </select>
+                <br>
+                <br>
+                <label for="">Que carrera maneja diseño digital?</label>
+                <select name="diseño" id="digital">
+                    <option name="p3" value="gastronomia">Gastronomia</option>
+                    <option name="p3" value="mecatronica">Mecatronica</option>
+                    <option name="p3" value="entornos virtuales">Entornos Virtuales</option>
+                </select>
+                <br>
+                <br>
+                <label for="">Que carrera maneja robotica?</label>
+                <select name="maneja" id="robotica">
+                    <option name="p4" value="gastronomia">Gastronomia</option>
+                    <option name="p4" value="mecatronica">Mecatronica</option>
+                    <option name="p5" value="entornos virtuales">Entornos Virtuales</option>
+                </select>
+                <br>
+                <br>
+                <label for="">Que carrera suena mas facil?</label>
+                <select name="suena" id="facil">
+                    <option name="p5" value="gastronomia">Gastronomia</option>
+                    <option name="p5" value="mecatronica">Mecatronica</option>
+                    <option name="p5" value="entornos virtuales">Entornos Virtuales</option>
+                </select>
+                <br>
+                <br>
+            </fieldset>
+            <input type="button" value="Mostrar" onclick="mostrarDatos()"/>
+        </article>
+        <p id="Resultado" class="res">Resultado</p><br>
+</body>
+</html>
